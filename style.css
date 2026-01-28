@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    background-color: #222;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+   font-size: 30px;
+   padding-left: 20px;
+   cursor: not-allowed;
+}
+.cart{
+     height: 100%;
+     width : 60px;
+     padding-top: 40px;
+}
+
+
