@@ -5,3 +5,30 @@ const items = [
   { id:4, name:"Chicken Burger", cat:"burger", price:180, img:"https://images.unsplash.com/photo-1550317138-10000687a72b" },
   { id:5, name:"Coke", cat:"drink", price:60, img:"https://images.unsplash.com/photo-1629203851122-3726ecdf080e" }
 ];
+
+const all = document.getElementById("#all");
+const pages = document.querySelectorAll(".pagebuttons")
+
+let cartcount = 0;
+
+function render(data){
+  menu.innerHTML ="";
+  data.forEach(item =>{
+    menu.innerHTML +=`
+    <div class ="card">
+    <img src = "${item.img}" alt="${item.name}">
+    <div class ="card-body">
+    <h3>${item.name}</h3>
+    <p>RS ${item.price}</p>
+    <button onClick="addTocart()">add to cart</button>
+    </div>
+    </div>
+  `})
+  function addToCart{
+    cartcount++;
+    document.getElementById("click",() =>{
+      
+    })
+
+  }
+}
